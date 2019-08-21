@@ -1,6 +1,6 @@
 # Changelog-generator
 
-This is a project made with [Next.js](https://nextjs.org) to create easy and fast changelogs.
+This is a project made to create easy and fast changelogs.
 
 ![Preview](./docs-assets/preview.png) 
 
@@ -24,7 +24,9 @@ Execute the comand `npm run publish`. A directory called `/out` will be created.
 
 
 ### Developing
-Useful commands:
+This project is made with [Next.js](https://nextjs.org) and [Bootstrap 4](https://getbootstrap.com).  
+
+**Some useful commands:**
 * Run the project with 'watch' option: `npm run dev`.    
 * Run a basic linter: `npm run lint`.   
 
