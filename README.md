@@ -7,8 +7,13 @@ This is a project made with [Next.js](https://nextjs.org) to create easy and fas
 ## How to use
 
 ### Configuration and providing data
-The data that will be part of the changelog is obtained from a JSON file. You must edit the file located in the directory `data/changelog.json`. 
-You must also edit the file of configuration located in the directory `data/configuration.json`.
+The data that will be part of the changelog is obtained from a JSON file. You must edit the file located in the directory `data/changelog.json`.  
+
+![Preview](./docs-assets/data.png) 
+
+You must also edit the file of configuration located in the directory `data/configuration.json`.  
+
+![Preview](./docs-assets/configuration.png) 
 
 After edit JSON files, you are ready to publish.
 

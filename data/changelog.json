@@ -1,6 +1,14 @@
 {
 	"versions": [
 		{ 
+			"tag": "1.1.04",
+			"date": "2019-08-21",
+			"changes": [
+				"Optimized size of an image",
+				"Improved documentation"
+			]
+		},
+		{ 
 			"tag": "1.0.03",
 			"date": "2019-08-21",
 			"changes": [
