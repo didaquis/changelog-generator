@@ -1,0 +1,41 @@
+{
+  "name": "changelog-generator",
+  "version": "1.0.02",
+  "private": true,
+  "description": "A list of changes to share with our customers",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export",
+    "lint": "eslint --ext .jsx,.js .",
+    "publish": "npm run export && cp out/index.html out/200.html"
+  },
+  "keywords": [
+    "changelog",
+    "generator"
+  ],
+  "author": "Dídac García (https://didaquis.github.io/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/didaquis/changelog-generator.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "md5": "^2.2.1",
+    "next": "^9.0.4",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.2.1",
+    "eslint-config-standard": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
