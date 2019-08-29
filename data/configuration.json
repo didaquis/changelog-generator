@@ -1,6 +1,7 @@
 {
-	"limitOfVersionsToShow": 10,
 	"productName": "Changelog Generator",
+	"limitOfVersionsToShow": 10,
+	"textOfListHeader": "Release comments",
 	"footerUrlLink": "https://github.com/didaquis",
 	"footerTextLink": "didaquis"
 }

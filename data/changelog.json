@@ -1,6 +1,13 @@
 {
 	"versions": [
 		{ 
+			"tag": "1.1.06",
+			"date": "2019-08-29",
+			"changes": [
+				"The header list text is now configurable"
+			]
+		},
+		{ 
 			"tag": "1.1.05",
 			"date": "2019-08-29",
 			"changes": [

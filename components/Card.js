@@ -1,4 +1,5 @@
 import CardSubsection from './CardSubsection'
+import configuration from '../data/configuration.json'
 
 const Card = (props) => {
 	return (
@@ -8,7 +9,7 @@ const Card = (props) => {
 					<h5 className="card-title mt-3 text-monospace text-white">{props.header} <em className="font-weight-lighter text-light">({props.date})</em></h5>
 				</div>
 				<div className="card-body bg-light">
-					<CardSubsection title={'Changes:'} data={props.changes}/>
+					<CardSubsection title={configuration.textOfListHeader} data={props.changes}/>
 				</div>
 			</div>
 		</div>
