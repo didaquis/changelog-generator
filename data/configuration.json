@@ -1,5 +1,5 @@
 {
-	"productName": "Changelog Generator",
+	"titleOfWebsite": "Changelog Generator",
 	"limitOfVersionsToShow": 10,
 	"textOfListHeader": "Release comments",
 	"footerUrlLink": "https://github.com/didaquis",
