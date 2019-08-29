@@ -1,6 +1,6 @@
 {
   "name": "changelog-generator",
-  "version": "1.1.06",
+  "version": "1.1.09",
   "private": true,
   "description": "A list of changes to share with our customers",
   "main": "index.js",
@@ -24,16 +24,16 @@
   "license": "ISC",
   "dependencies": {
     "md5": "^2.2.1",
-    "next": "^9.0.4",
+    "next": "^9.0.5",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.2",
-    "eslint": "^6.2.1",
-    "eslint-config-standard": "^14.0.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.2.2",
+    "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-node": "^9.2.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-standard": "^4.0.1"

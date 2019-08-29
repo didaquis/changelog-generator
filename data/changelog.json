@@ -1,6 +1,15 @@
 {
 	"versions": [
 		{ 
+			"tag": "1.1.09",
+			"date": "2019-08-29",
+			"changes": [
+				"The website title is fully configurable",
+				"Space around title has been reduced",
+				"Docs has been improved"
+			]
+		},
+		{ 
 			"tag": "1.1.06",
 			"date": "2019-08-29",
 			"changes": [
