@@ -2,7 +2,7 @@ import configuration from '../data/configuration.json'
 
 const Jumbotron = () => {
 	return (
-		<div className="jumbotron mt-3 mb-3 bg-dark text-light">
+		<div className="jumbotron bg-dark text-light mb-0">
 			<h1 className="mb-0">{configuration.titleOfWebsite}</h1>
 		</div>
 	)
