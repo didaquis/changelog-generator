@@ -1,0 +1,15 @@
+@media print {
+	div.row {
+		display: block;
+	}
+
+	.card {
+		display: block;
+		page-break-inside: avoid;
+		top: 16px;
+	}
+ 
+	.footer a[href^="http"]::after {
+		content: " (" attr(href) ")";
+	}
+}
