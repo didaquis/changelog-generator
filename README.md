@@ -1,15 +1,16 @@
 # Changelog-generator ⚡️
 
-**This is a project made to create easy and fast changelogs.**
+**A template for building static websites with the purpose of creating quick and easy changelogs!**
 
 ![Preview](./docs-assets/preview.png) 
 
 ## ✨ Features
 
 * **Without Coding!** You don't need to code anything. Only edit two JSON files
-* **No tied to languaje** You can edit all text of websites, so this repo don't force you to use any language
-* **Create an static website so fast** You only need a couple of minutes
-* **Easy PDF creation** Compatible with the browser's PDF print function
+* **No tied to language.** You can edit all text of websites, so this repo don't force you to use any language
+* **Create an static website so fast.** You only need a couple of minutes
+* **Easy PDF creation.** Compatible with the browser's PDF print function
+* **Multipurpose.** Do changelogs, roadmaps or just TO DO lists!
 
 
 ## 🔨 How to use
@@ -36,6 +37,13 @@ of the changelog.json file.
 You should also edit the configuration file located in the directory `data/configuration.json`.  
 
 ![Preview](./docs-assets/configuration.png) 
+
+**Parameters to configure:** 
+* `titleOfWebsite` => Set the page title (optional)
+* `limitOfVersionsToShow` => Set the number of versions to be displayed (starting at the top of JSON file. Default value is 10)
+* `textOfListHeader` => Set the title of the lists (optional)
+* `footerUrlLink` => Establish the link to indicate the authorship of the project (optional, but don't forget set the property `footerTextLink` if you set a value)
+* `footerTextLink` => Establish the text of the link to indicate the authorship of the project (optional, but don't forget set the property `footerUrlLink` if you set a value)
 
 You can run the command `npm run dev` to view the changes in live on `http://localhost:3000`.
 
