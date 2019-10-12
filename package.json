@@ -1,6 +1,6 @@
 {
   "name": "changelog-generator",
-  "version": "1.1.10",
+  "version": "1.1.11",
   "private": true,
   "description": "A list of changes to share with our customers",
   "main": "index.js",
@@ -21,7 +21,7 @@
     "type": "git",
     "url": "https://github.com/didaquis/changelog-generator.git"
   },
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "md5": "^2.2.1",
     "next": "^9.1.1",
