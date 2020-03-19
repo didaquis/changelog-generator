@@ -7,8 +7,8 @@
 ## ✨ Features
 
 * **Without Coding!** You don't need to code anything. Only edit two JSON files
-* **No tied to language.** You can edit all text of websites, so this repo don't force you to use any language
-* **Create an static website so fast.** You only need a couple of minutes
+* **No tied to language.** You can edit all text of websites, so this repo doesn't force you to use any language
+* **Create a static website so fast.** You only need a couple of minutes
 * **Easy PDF creation.** Compatible with the browser's PDF print function
 * **Multipurpose.** Do changelogs, roadmaps or just TO DO lists!
 
@@ -16,7 +16,7 @@
 ## 🔨 How to use
 
 ### ⚠️ Requirements
-This project require [Node.js](https://nodejs.org) installed on your computer.
+This project requires [Node.js](https://nodejs.org) installed on your computer.
 Clone or download this repository and then install the dependencies: `npm install`.  
 
 
@@ -42,8 +42,8 @@ You should also edit the configuration file located in the directory `data/confi
 * `titleOfWebsite` => Set the page title (optional)
 * `limitOfVersionsToShow` => Set the number of versions to be displayed (starting at the top of JSON file. Default value is 10)
 * `textOfListHeader` => Set the title of the lists (optional)
-* `footerUrlLink` => Establish the link to indicate the authorship of the project (optional, but don't forget set the property `footerTextLink` if you set a value)
-* `footerTextLink` => Establish the text of the link to indicate the authorship of the project (optional, but don't forget set the property `footerUrlLink` if you set a value)
+* `footerUrlLink` => Establish the link to indicate the authorship of the project (optional, but don't forget to set the property `footerTextLink` if you set a value)
+* `footerTextLink` => Establish the text of the link to indicate the authorship of the project (optional, but don't forget to set the property `footerUrlLink` if you set a value)
 
 You can run the command `npm run dev` to view the changes in live on `http://localhost:3000`.
 
