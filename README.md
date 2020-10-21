@@ -1,6 +1,8 @@
 # Changelog-generator ⚡️
 
-**A template for building static websites with the purpose of creating quick and easy changelogs!**
+**A template for building static websites with the purpose of creating quick and easy changelogs!**  
+
+This project is a simple way to create and maintain a changelog.  
 
 ![Preview](./docs-assets/preview.png) 
 
@@ -52,7 +54,7 @@ After edit both JSON files, you are ready to publish.
 
 ### 🚀 Publish
 Execute the comand `npm run publish`. Then a directory called `/out` will be created. Move all content of that folder to your web server. 
-Of course, you can publish the website generated on GitHub Pages, Surge or similar services.
+Of course, you can publish the website generated on GitHub Pages, Surge, Netlify or similar services.
 
 
 ```
