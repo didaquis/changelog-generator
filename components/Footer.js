@@ -5,7 +5,7 @@ const Footer = () => {
 
 	let footerContent = null
 	if (isLinkReadyToBeDisplayed) {
-		footerContent = <span className="text-muted font-weight-light">Made by <a target="_blank" className="text-info" href={configuration.footerUrlLink}>{configuration.footerTextLink}</a></span>
+		footerContent = <span className="text-muted font-weight-light">Made by <a target="_blank" rel="noreferrer noopener" className="text-info" href={configuration.footerUrlLink}>{configuration.footerTextLink}</a></span>
 	}
 
 	return (

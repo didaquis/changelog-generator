@@ -5,6 +5,7 @@ const Header = () => {
 	return (
 		<Head>
 			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+			<meta name="description" content={configuration.titleOfWebsite} />
 			<title>{configuration.titleOfWebsite}</title>
 
 			<link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
