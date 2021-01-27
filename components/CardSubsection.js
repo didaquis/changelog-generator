@@ -1,3 +1,5 @@
+import React from 'react'
+
 const CardSubsection = (props) => {
 	return (
 		<React.Fragment>

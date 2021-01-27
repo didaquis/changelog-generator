@@ -1,3 +1,5 @@
+import React from 'react'
+
 import Card from './Card'
 import md5 from 'md5'
 
