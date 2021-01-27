@@ -32,8 +32,8 @@ To add data that will be part of the changelog you must edit the file located in
 ```
 💡 TIP! 
 
-If you need to update the changelog data frequently, you should consider automating the generation 
-of the changelog.json file.
+If you need to update the changelog data frequently, you should consider automating 
+the generation of the changelog.json file.
 ```
 
 You should also edit the configuration file located in the directory `data/configuration.json`.  
@@ -67,7 +67,7 @@ to generate the PDF file.
 ```
 
 
-### 🌀 Developing
+### 🌀 Development
 This project is made with [Next.js](https://nextjs.org) and [Bootstrap 4](https://getbootstrap.com).  
 
 **Some useful commands:**  
