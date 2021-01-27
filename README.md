@@ -18,7 +18,7 @@ This project is a simple way to create and maintain a changelog.
 ## 🔨 How to use
 
 ### ⚠️ Requirements
-This project requires [Node.js](https://nodejs.org) installed on your computer.
+This project requires [Node.js](https://nodejs.org) 12 or higher installed on your computer.
 Clone or download this repository and then install the dependencies: `npm install`.  
 
 
