@@ -1,8 +1,8 @@
-import React from 'react'
+import { Fragment } from 'react'
 
 const CardSubsection = (props) => {
 	return (
-		<React.Fragment>
+		<Fragment>
 			<h6 className="card-subtitle mt-2 mb-1 font-weight-bold">{props.title}</h6>
 			
 			<ul className="list-style">
@@ -14,7 +14,7 @@ const CardSubsection = (props) => {
 					})
 				}
 			</ul>
-		</React.Fragment>
+		</Fragment>
 	)
 }
 

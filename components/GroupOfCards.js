@@ -1,4 +1,4 @@
-import React from 'react'
+import { Fragment } from 'react'
 
 import Card from './Card'
 import md5 from 'md5'
@@ -11,7 +11,7 @@ const GroupOfCards = () => {
 	const limitOfCardsToShow = configuration.limitOfVersionsToShow || defaultLimit
 
 	return (
-		<React.Fragment>
+		<Fragment>
 			{
 				changelog.versions.map((version, index) => {
 					if (index >= limitOfCardsToShow) return null
@@ -27,7 +27,7 @@ const GroupOfCards = () => {
 					)
 				})
 			}
-		</React.Fragment>
+		</Fragment>
 	)
 }
   
