@@ -1,53 +1,51 @@
-/* eslint-disable no-magic-numbers */
 module.exports = {
-	'env': {
-		'browser': true,
-		'es6': true,
-		'node': true
+	env: {
+		browser: true,
+		es6: true,
+		node: true
 	},
-	'parser': 'babel-eslint',
-	'extends': 'eslint:recommended',
-	'globals': {
-		'Atomics': 'readonly',
-		'SharedArrayBuffer': 'readonly',
-		'React': 'readonly'
+	parser: 'babel-eslint',
+	extends: 'eslint:recommended',
+	globals: {
+		Atomics: 'readonly',
+		SharedArrayBuffer: 'readonly',
+		React: 'readonly'
 	},
-	'parserOptions': {
-		'ecmaFeatures': {
-			'jsx': true
+	parserOptions: {
+		ecmaFeatures: {
+			jsx: true
 		},
-		'ecmaVersion': 2018,
-		'sourceType': 'module'
+		ecmaVersion: 2020,
+		sourceType: 'module'
 	},
-	'plugins': [
+	plugins: [
 		'react'
 	],
-	'rules': {
+	rules: {
 		'react/jsx-uses-vars': [2],
-		'indent': [
+		indent: [
 			'error',
 			'tab',
-			{'SwitchCase': 1}
+			{ SwitchCase: 1 }
 		],
-		'quotes': [
+		quotes: [
 			'error',
 			'single'
 		],
-		'semi': [
+		semi: [
 			'error',
 			'never'
 		],
 		'no-console': 'warn',
 		'no-alert': 'warn',
 		'no-unused-vars': 'warn',
-		'keyword-spacing': ['error', { 'before': true, 'after': true }],
-		'space-infix-ops': ['error', {'int32Hint': false}],
+		'keyword-spacing': ['error', { before: true, after: true }],
+		'space-infix-ops': ['error', { int32Hint: false}],
 		'comma-spacing': ['error'],
 		'arrow-spacing': ['error'],
 		'semi-spacing': ['error'],
 		'space-before-function-paren': ['error'],
 		'no-multi-spaces': 'error',
-		'no-magic-numbers': ['warn', { 'ignoreArrayIndexes': true }],
 		'valid-typeof': 'error'
 	}
 }
