@@ -40,12 +40,13 @@ module.exports = {
 		'no-alert': 'warn',
 		'no-unused-vars': 'warn',
 		'keyword-spacing': ['error', { before: true, after: true }],
-		'space-infix-ops': ['error', { int32Hint: false}],
+		'space-infix-ops': ['error', { int32Hint: false }],
 		'comma-spacing': ['error'],
 		'arrow-spacing': ['error'],
 		'semi-spacing': ['error'],
 		'space-before-function-paren': ['error'],
 		'no-multi-spaces': 'error',
-		'valid-typeof': 'error'
+		'valid-typeof': 'error',
+		'object-curly-spacing': ['error', 'always']
 	}
 }
