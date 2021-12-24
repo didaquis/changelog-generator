@@ -4,7 +4,7 @@ module.exports = {
 		es6: true,
 		node: true
 	},
-	parser: 'babel-eslint',
+	parser: '@babel/eslint-parser',
 	extends: 'eslint:recommended',
 	globals: {
 		Atomics: 'readonly',
@@ -16,7 +16,11 @@ module.exports = {
 			jsx: true
 		},
 		ecmaVersion: 2020,
-		sourceType: 'module'
+		sourceType: 'module',
+		requireConfigFile: false,
+		babelOptions: {
+			presets: ['@babel/preset-react']
+		}
 	},
 	plugins: [
 		'react'
