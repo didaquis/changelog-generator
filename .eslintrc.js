@@ -51,6 +51,7 @@ module.exports = {
 		'space-before-function-paren': ['error'],
 		'no-multi-spaces': 'error',
 		'valid-typeof': 'error',
-		'object-curly-spacing': ['error', 'always']
+		'object-curly-spacing': ['error', 'always'],
+		'curly': 'error'
 	}
 }
