@@ -1,8 +1,9 @@
 import { Html, Head, Main, NextScript } from 'next/document'
+import configuration from '../data/configuration.json'
 
 export default function Document () {
 	return (
-		<Html>
+		<Html lang={configuration.languageOfWebsite}>
 			<Head>
 				<link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 				<link href="/styles/print-styles.css" rel="stylesheet" />

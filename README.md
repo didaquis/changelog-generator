@@ -27,7 +27,7 @@ Clone or download this repository and then install the dependencies: `npm instal
 All configuration and data is obtained from JSON files. 
 To add data that will be part of the changelog you must edit the file located in the directory `data/changelog.json`.  
 
-![Preview](./docs-assets/data.png) 
+![Preview](./docs-assets/changelog.png) 
 
 ```
 💡 TIP! 
@@ -41,6 +41,7 @@ You should also edit the configuration file located in the directory `data/confi
 ![Preview](./docs-assets/configuration.png) 
 
 **Parameters to configure:** 
+* `languageOfWebsite` => Set the language of website content (optional). Examples: `es` for spanish, or `en` for english.
 * `titleOfWebsite` => Set the page title (optional)
 * `limitOfVersionsToShow` => Set the number of versions to be displayed (starting at the top of JSON file. Default value is 10)
 * `textOfListHeader` => Set the title of the lists (optional)
@@ -49,7 +50,7 @@ You should also edit the configuration file located in the directory `data/confi
 
 You can run the command `npm run dev` to view the changes in live on `http://localhost:3000`.
 
-After edit both JSON files, you are ready to publish.
+After edit both JSON files, you are ready to publish your website.
 
 
 ### 🚀 Publish

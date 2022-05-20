@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import configuration from '../data/configuration.json'
 
-function MyApp({ Component, pageProps }) {
+function MyApp ({ Component, pageProps }) {
 	return (
 		<>
 			<Head>
