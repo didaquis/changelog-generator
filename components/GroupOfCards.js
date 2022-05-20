@@ -14,7 +14,9 @@ const GroupOfCards = () => {
 		<Fragment>
 			{
 				changelog.versions.map((version, index) => {
-					if (index >= limitOfCardsToShow) return null
+					if (index >= limitOfCardsToShow) {
+						return null
+					}
 
 					const key = md5(JSON.stringify(version))
 					return (
