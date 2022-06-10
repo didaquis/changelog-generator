@@ -9,7 +9,7 @@ This project is a simple way to create and maintain a changelog.
 ## ✨ Features
 
 * **Without Coding!** You don't need to code anything. Only edit two JSON files
-* **No tied to language.** You can edit all text of websites, so this repo doesn't force you to use any language
+* **No tied to language.** You can edit all text of website, so this repo doesn't force you to use any language
 * **Create a static website so fast.** You only need a couple of minutes
 * **Easy PDF creation.** Compatible with the browser's PDF print function
 * **Multipurpose.** Do changelogs, roadmaps or just TO DO lists!
